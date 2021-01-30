@@ -1,0 +1,106 @@
+@import 'normalice.css';
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Regular/OpenSans-Regular.woff') format('woff'), url('/fonts/OpenSans-Regular/OpenSans-Regular.ttf') format('truetype'), url('/fonts/OpenSans-Regular/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Bold/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('/fonts/OpenSans-Bold/OpenSans-Bold.woff') format('woff'), url('/fonts/OpenSans-Bold/OpenSans-Bold.ttf') format('truetype'), url('/fonts/OpenSans-Bold/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Aqui lo estamos centrando todo, main, .main-header y footer */
+
+main,
+.main-header,
+footer {
+    max-width: 700px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+/* aqui hacemos la caja del menu */
+
+main {
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+
+
+/* Aumenta el tamaño de la imagen del main-header */
+
+.main-header {
+    background-color: #76bcda;
+    text-align: center;
+    padding: 40px;
+}
+
+
+/* bloque en linea (post) */
+
+.post {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+
+/* Agrandamos la imagen del main-header */
+
+.bg-image {
+    background-color: #183642;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Modificamos la altura  de la imagen */
+
+.bg-image img {
+    height: 120px;
+}
+
+footer {
+    background-color: #ef4c51;
+    color: white;
+    padding: 20px;
+}
+
+.footer-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.footer-text a {
+    color: white;
+}
+
+.social-links {
+    text-align: right;
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+
+.social-links img {
+    margin: 0 2px;
+    width: 50px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
